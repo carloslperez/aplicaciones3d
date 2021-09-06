@@ -9,7 +9,7 @@ function start() {
             nlat: 30,
             nlong: 30,
             radius: 3,
-            // textures: 'https://lizgar.github.io/A3D/js/earth.jpg'
+            textures: 'https://lizgar.github.io/A3D/js/earth.jpg'
         }
     );
 
@@ -22,21 +22,21 @@ function start() {
                 }
             },
 
-            // textures: {
+             textures: {
 
-            //     src: ['https://lizgar.github.io/A3D/js/earth.jpg'],
-            //     parameters: [{
-            //         name: 'TEXTURE_MAG_FILTER',
-            //         value: 'LINEAR'
-            //     }, {
+                 src: ['https://lizgar.github.io/A3D/js/earth.jpg'],
+                 parameters: [{
+                     name: 'TEXTURE_MAG_FILTER',
+                     value: 'LINEAR'
+                 }, {
 
-            //         name: 'TEXTURE_MIN_FILTER',
-            //         value: 'LINEAR_MIPMAP_NEAREST',
-            //         generateMipmap: true
-            //     }
+                     name: 'TEXTURE_MIN_FILTER',
+                     value: 'LINEAR_MIPMAP_NEAREST',
+                     generateMipmap: true
+                 }
 
-            //     ]
-            // },
+                 ]
+            },
 
 
 
